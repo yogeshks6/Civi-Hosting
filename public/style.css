@@ -67,3 +67,11 @@ nav {
 .hero-section-right{
     color: rgba(11, 1, 70, 1);
 }
+.hero-section-right-btn button{
+    border: 1px solid rgba(11, 1, 70, 1);
+    font-weight: 500;
+    width: 168px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 20px 0px 20px 0px;
+}
