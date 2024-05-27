@@ -30,3 +30,40 @@ nav {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+.hero-section{
+    background-image: url(./assets/Background.jpg);
+    background-size: cover;
+    
+    padding-top: 6%;
+}
+.hero-left-text{
+    color: rgba(11, 1, 70, 1);
+    font-size: 46px;
+}
+.hero-left-text span{
+    color:rgba(156, 140, 248, 1);
+}
+.hero-email-ico{
+    padding: 10px, 12px, 10px, 12px;
+    height: 44px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0px;
+    color: rgba(11, 1, 70, 0.5);
+    border: none;
+    background-color: rgba(13, 11, 17, 0.05);
+}
+.hero-email-input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    background-color: rgba(13, 11, 17, 0.05);
+}
+.hero-left-btn{
+    background-color: rgba(52, 60, 255, 1);
+    padding: 12px 24px 12px 24px;
+    border-radius: 20px 0px 20px 0px;
+    width: 400px;
+}
+.hero-section-right{
+    color: rgba(11, 1, 70, 1);
+}
