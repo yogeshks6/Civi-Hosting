@@ -30,20 +30,24 @@ nav {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.hero-section{
+
+.hero-section {
     background-image: url(./assets/Background.jpg);
     background-size: cover;
-    
+
     padding-top: 6%;
 }
-.hero-left-text{
+
+.hero-left-text {
     color: rgba(11, 1, 70, 1);
     font-size: 46px;
 }
-.hero-left-text span{
-    color:rgba(156, 140, 248, 1);
+
+.hero-left-text span {
+    color: rgba(156, 140, 248, 1);
 }
-.hero-email-ico{
+
+.hero-email-ico {
     padding: 10px, 12px, 10px, 12px;
     height: 44px;
     border-top-left-radius: 30px;
@@ -52,22 +56,26 @@ nav {
     border: none;
     background-color: rgba(13, 11, 17, 0.05);
 }
-.hero-email-input{
+
+.hero-email-input {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 30px;
     border: none;
     background-color: rgba(13, 11, 17, 0.05);
 }
-.hero-left-btn{
+
+.hero-left-btn {
     background-color: rgba(52, 60, 255, 1);
     padding: 12px 24px 12px 24px;
     border-radius: 20px 0px 20px 0px;
     width: 350px;
 }
-.hero-section-right{
+
+.hero-section-right {
     color: rgba(11, 1, 70, 1);
 }
-.hero-section-right-btn button{
+
+.hero-section-right-btn button {
     border: 1px solid rgba(11, 1, 70, 1);
     font-weight: 500;
     width: 168px;
@@ -75,6 +83,11 @@ nav {
     padding: 12px 24px 12px 24px;
     border-radius: 20px 0px 20px 0px;
 }
-.card-section{
+
+.card-section {
     margin-top: 6%;
+}
+
+footer{
+    background-color: rgb(13,10,16);
 }
