@@ -109,4 +109,9 @@ footer {
     padding: 28px 0px;
 }
 
+.img-sec {
+    border-left: 2px solid rgba(11, 1, 70, 1);
+    font-size: 14px;
+}
+
 /* second page css end */
