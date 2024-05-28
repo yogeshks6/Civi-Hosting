@@ -31,6 +31,8 @@ nav {
     border-bottom-right-radius: 25px;
 }
 
+/* first page css  start*/
+
 .hero-section {
     background-image: url(./assets/Background.jpg);
     background-size: cover;
@@ -87,7 +89,15 @@ nav {
 .card-section {
     margin-top: 6%;
 }
+/* first page css  end*/
 
 footer {
     background-color: rgb(13, 10, 16);
 }
+
+
+
+
+/* second page css start */
+
+/* second page css end */
