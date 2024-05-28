@@ -89,6 +89,7 @@ nav {
 .card-section {
     margin-top: 6%;
 }
+
 /* first page css  end*/
 
 footer {
@@ -99,5 +100,12 @@ footer {
 
 
 /* second page css start */
+.hero-right-sec {
+    border: 1px solid black;
+    width: 464px;
+    height: 198px;
+    border-radius: 32px 0px 32px 0px;
+    padding: 28px 0px;
+}
 
 /* second page css end */
