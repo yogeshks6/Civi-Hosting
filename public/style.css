@@ -180,5 +180,35 @@ footer {
     padding: 12px;
     background-color: rgba(13, 11, 17, 0.05);
 }
+.contact-section-second-row-right-btn{
+    width: 400px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 12px 24px 12px 24px;
+    background-color: rgba(52, 60, 255, 1);
+    text-align: center;
+    font-weight: 500;
+}
+.faqs-section{
+    color: rgba(11, 1, 70, 1);
+    margin-top: 15%;
+}
+.faqs-section-head{
+    font-size: 42px;
+}
 
+.grad-border {
+    height: 2px;
+    width: 100%;
+    display: flex;
+  }
+   .right-border {
+    width: 100%;
+    border-bottom: 2px solid #695f52;
+    display: inline-block;
+  }
+  .right-border {
+    border-image: linear-gradient(90deg, #b3b3b3, #fff) 1;
+  }
+  
 /* Third page css end */
