@@ -180,7 +180,8 @@ footer {
     padding: 12px;
     background-color: rgba(13, 11, 17, 0.05);
 }
-.contact-section-second-row-right-btn{
+
+.contact-section-second-row-right-btn {
     width: 400px;
     height: 48px;
     border-radius: 20px 0px 20px 0px;
@@ -189,11 +190,13 @@ footer {
     text-align: center;
     font-weight: 500;
 }
-.faqs-section{
+
+.faqs-section {
     color: rgba(11, 1, 70, 1);
     margin-top: 15%;
 }
-.faqs-section-head{
+
+.faqs-section-head {
     font-size: 42px;
 }
 
@@ -201,14 +204,26 @@ footer {
     height: 2px;
     width: 100%;
     display: flex;
-  }
-   .right-border {
+}
+
+.right-border {
     width: 100%;
     border-bottom: 2px solid #695f52;
     display: inline-block;
-  }
-  .right-border {
+}
+
+.right-border {
     border-image: linear-gradient(90deg, #b3b3b3, #fff) 1;
-  }
-  
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0px 20px 0px;
+}
+
+.accordion {
+    --bs-accordion-active-bg: rgba(52, 59, 255, 0.084);
+}
+
 /* Third page css end */
