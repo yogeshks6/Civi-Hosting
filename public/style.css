@@ -122,12 +122,27 @@ footer {
 
 
 /* Third page css start */
-.third-page-hero-img{
+.third-page-hero-img {
     width: 1312px;
     height: 458px;
 }
-.contact-sec-con{
+
+.contact-sec {
+    color: rgba(11, 1, 70, 1);
+    margin-top: 13%;
+}
+
+.contact-sec-con {
     font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-sec-para {
+    font-size: 42px;
+}
+
+.contact-sec-para span {
+    color: rgba(156, 140, 248, 1);
 }
 
 /* Third page css end */
