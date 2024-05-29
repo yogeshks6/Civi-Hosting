@@ -140,31 +140,45 @@ footer {
 .contact-sec-para {
     font-size: 42px;
 }
-.contact-sec-line{
+
+.contact-sec-line {
     font-size: 18px;
 }
+
 .contact-sec-para span {
     color: rgba(156, 140, 248, 1);
 }
 
-.contact-section-second-row{
-margin-top: 10%;
-}
-.contact-section-second-row-reach{
-    font-size: 24px;
-}
-.contact-section-second-row-details{
-font-size: 18px;
+.contact-section-second-row {
+    margin-top: 10%;
 }
 
-.contact-section-second-row-right{
+.contact-section-second-row-reach {
+    font-size: 24px;
+}
+
+.contact-section-second-row-details {
+    font-size: 18px;
+}
+
+.contact-section-second-row-right {
     font-size: 20px;
     font-weight: 700;
 }
-.contact-section-second-row-right-input input{
-width: 400px;
-height: 44px;
-border-radius: 24px 0px 24px 0px;
-padding: 10px 12px 10px 12px;
+
+.contact-section-second-row-right-input input {
+    width: 400px;
+    height: 44px;
+    border-radius: 24px 0px 24px 0px;
+    padding: 10px 12px 10px 12px;
 }
+
+#contact-section-textarea {
+    height: 180px;
+    width: 400px;
+    border-radius: 24px 0px 24px 0px;
+    padding: 12px;
+    background-color: rgba(13, 11, 17, 0.05);
+}
+
 /* Third page css end */
