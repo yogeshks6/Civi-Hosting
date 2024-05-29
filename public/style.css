@@ -122,4 +122,12 @@ footer {
 
 
 /* Third page css start */
+.third-page-hero-img{
+    width: 1312px;
+    height: 458px;
+}
+.contact-sec-con{
+    font-size: 18px;
+}
+
 /* Third page css end */
