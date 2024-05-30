@@ -266,6 +266,7 @@ footer {
 .faqs-section-black-main {
     background-color: black;
 }
+
 .faqs-section-black {
     color: white;
     margin-top: 15%;
@@ -275,29 +276,74 @@ footer {
     font-size: 42px;
 }
 
-.grad-border {
+.black-bor {
     height: 2px;
     width: 100%;
     display: flex;
 }
 
-.right-border {
+.black-bor.left-border {
     width: 100%;
     border-bottom: 2px solid #695f52;
     display: inline-block;
 }
 
-.right-border {
-    border-image: linear-gradient(90deg, #b3b3b3, #fff) 1;
+.black-bor.left-border {
+    border-image: linear-gradient(90deg, #fff, #b3b3b3) 1;
 }
 
-.accordion-button {
+.accordion-btn-black {
     font-size: 18px;
+    color: white;
+    background-color: black;
     font-weight: 500;
     padding: 20px 0px 20px 0px;
+}
+
+.accordion-btn-black::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23ffffff' d='M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E");
+}
+
+.accordion-btn-black:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%23ffffff' d='M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z'/%3E%3C/svg%3E");
+}
+
+.accordion-body {
+    background-color: black;
+    color: white;
+}
+
+.accordion-black>.accordion-item>.accordion-header .accordion-button,
+.accordion-flush>.accordion-item>.accordion-header .accordion-btn-black.collapsed {
+    color: white;
+    background-color: black;
 }
 
 .accordion {
     --bs-accordion-active-bg: rgba(52, 59, 255, 0.084);
 }
+
+.question-section-black {
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 20px 29px 20px 29px;
+}
+
+
+.question-black-section-text p {
+    font-size: 32px;
+}
+
+.question-black-section-text span {
+    font-size: 18px;
+}
+
+.question-black-section-btn {
+    width: 220px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    height: 64px;
+    border-radius: 30px 0px 30px 0px;
+    padding: 19px 0px 0px 0px;
+    background-color: rgba(52, 60, 255, 1);
+}
+
 /* FAQS black section */
