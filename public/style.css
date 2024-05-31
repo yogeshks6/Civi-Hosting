@@ -347,3 +347,63 @@ footer {
 }
 
 /* FAQS black section */
+
+
+
+
+
+
+
+
+
+
+/* Fourth page css */
+.hero-sec-fourth {
+    background-image: url(./assets/fourth-page.png);
+    background-size: cover;
+    padding-top: 12%;
+    height: 874px;
+    padding-bottom: 8%;
+
+}
+
+.hero-fourth-btn {
+    display: block;
+    width: 287px;
+    height: 64px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(52, 60, 255, 1);
+    border-radius: 30px 0px 30px 0px;
+    padding: 12px 24px 12px 24px;
+}
+
+.hero-sec-four-rate {
+    color: rgba(144, 129, 228, 1);
+    font-size: 18px;
+}
+
+.hero-sec-four-rating {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+.hero-sec-fourth-big-text {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.hero-sec-fourth-big-text span {
+    color: rgba(156, 140, 248, 1);
+}
+
+.hero-sec-fourth-svg {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+}
+
+.hero-sec-fourth-lastline {
+    color: rgba(119, 165, 255, 1);
+}
+
+/* Fourth page css */
